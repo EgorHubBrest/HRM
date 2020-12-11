@@ -1,25 +1,25 @@
-#<center>Human Resource Management</center>
+# <center>Human Resource Management</center>
 ***
-##1.Introduction
-###1.1 Purpose
+## 1.Introduction
+### 1.1 Purpose
 The purpose of this document is to give a detailed description of the requirements for the “Human Resources Management". It will illustrate the purpose and complete declaration for the
 development of system. It will also explain system constraints, interface and interactions with application.
-###1.2 Scope
+### 1.2 Scope
 "HUMAN RESOURCES MANAGEMENT" is a web application designed for managing departments and personnel.
 ***
-##2.Overall Description
-###2.1 Product perspective
+## 2.Overall Description
+### 2.1 Product perspective
 This system will consist of two parts:databases and web applications. The database will be used for storing and processing information that will come from the web application. The web application will provide managers with all the necessary information on employee management, such as:work schedule, Department names, data about all employees and vacations.
 
 ![](https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/AddLeave.png)
 Pic. 2.1 DFD diagram.
 
-###2.2 Product functions
+### 2.2 Product functions
 With this web application, users can manage the organization's employees and create reports on their work. The Manager will have access to such functions as: entering employee information, viewing employee information, editing and deleting data from the database. This app will also show the working hours of each employee and their activity using an interactive calendar.
-###2.3 User characteristics
+### 2.3 User characteristics
 There are two types of users who interact with the system:Manager and employee.The Manager has full access to the app and can view and manage information about all employees.Employees, in turn, when they log in to the app, will confirm the time when they arrived at work and choose what their mood is.
 ***
-##3.Specific requirements
+## 3.Specific requirements
 ### User interfaces
 "HRM" - is a web application that automates the management of employees in an organization.
 The application must provide:
@@ -32,8 +32,8 @@ The application must provide:
 - Creating work schedules
 - Display of work/activity schedules using a calendar
 
-###3.1 Registration and Login
-####3.1.1 Login form
+### 3.1 Registration and Login
+#### 3.1.1 Login form
 This form is used to log in to your account.
 
 ***Main scenario:***
@@ -52,7 +52,7 @@ You can perform the following actions on the page:
 + Log in to your account.
 + Recover a forgotten password.
 
-####3.1.2 Registration
+#### 3.1.2 Registration
 This form is used to register a new account.
 
 ***Main scenario:***
@@ -67,7 +67,7 @@ This form is used to register a new account.
 <img src="/home/egor/Изображения/reg2.png"  width="600" height="600">
 Pic. 3.1.2 Sign up form.
 
-####3.1.3 Password recovery
+#### 3.1.3 Password recovery
 
 This operation allows you to restore a lost or forgotten password.
 
@@ -82,7 +82,7 @@ Pic. 3.1.3 Password recovery.
 
 After clicking the confirm button, an email will be sent to your email address with instructions on how to change your password.
 
-####3.1.4 Confirm Passcode
+#### 3.1.4 Confirm Passcode
 
 In the course of this operation is the confirmation passcode.
 
@@ -97,7 +97,7 @@ Pic. 3.1.4 Confirm Passcode.
 
 Using the new message button, you can resend the message with a passcode.
 
-####3.1.5 Confirm New Password
+#### 3.1.5 Confirm New Password
 
 New password entry field.
 
@@ -109,7 +109,7 @@ New password entry field.
 <img src="/home/egor/Изображения/connewpass.png"  width="600" height="600">
 Pic. 3.1.5 Confirm New Password.
 
-###3.2 Dashboard
+### 3.2 Dashboard
 
 The mode is designed to view information about the organization number of employees, departments, active employees and employees on vacation. The sidebar allows you to switch to other control tabs.
 
@@ -129,8 +129,8 @@ The page displays the following information:
 - Number of employees on vacation.
 - Calendar with daily statistics.
 
-###3.3 Departments
-####3.3.1 Department List
+### 3.3 Departments
+#### 3.3.1 Department List
 
 ***Main scenario:***
 
@@ -152,7 +152,7 @@ Number of records displayed:
 - In the department list view mode, the user sets the number of entries to display;
 - The app will display the form with the required number of entries.
 
-####3.3.2 New Department
+#### 3.3.2 New Department
 
 ***Main scenario:***
 
@@ -179,7 +179,7 @@ When adding a department, the following details are entered:
 - Department – department name;
 - Designations – department designation;
 
-####3.3.3 Edit Department
+#### 3.3.3 Edit Department
 
 ***Main scenario:***
 
@@ -211,7 +211,7 @@ Constraints for data validation:
 - Department – maximum length of 90 characters;
 - Designations – maximum length of 90 characters;
 
-####3.3.4 Removing the Departament
+#### 3.3.4 Removing the Departament
 
 ***Main scenario:***
 
@@ -233,8 +233,8 @@ Pic. 3.3.4 Removing the Departament.
 - User press “Cancel” button;
 - List of departments without changes is displaying.
 
-###3.4 Employee
-####3.4.1 Employee List
+### 3.4 Employee
+#### 3.4.1 Employee List
 
 ***Main scenario:***
 
@@ -263,7 +263,7 @@ Number of records displayed:
 - In the Employee list view mode, the user sets the number of entries to display;
 - The app will display the form with the required number of entries.
 
-####3.4.2 New Employee
+#### 3.4.2 New Employee
 
 ***Main scenario:***
 
@@ -289,7 +289,7 @@ Pic. 3.4.2 New Employee.
 
 When you add an employee, you enter information about them.
 
-####3.4.3 Edit Employee
+#### 3.4.3 Edit Employee
 
 ***Main scenario:***
 
@@ -312,7 +312,7 @@ When you add an employee, you enter information about them.
 Pic. 3.4.3 Edit Employee.
 
 
-####3.4.4 Removing the Employee
+#### 3.4.4 Removing the Employee
 
 ***Main scenario:***
 
@@ -333,7 +333,7 @@ Cancel operation scenario:
 - User press “Cancel” button;
 - List of employee without changes is displaying.
 
-####3.4.5 Schedules List
+#### 3.4.5 Schedules List
 
 ***Main scenario:***
 
@@ -355,8 +355,8 @@ The list displays the following columns:
 
 The table will be generated automatically from the employeelist table and from the user interface shown below.
 
-###3.5 Leave
-####3.5.1 New Leave
+### 3.5 Leave
+#### 3.5.1 New Leave
 
 On this tab, an employee is added who is temporarily incapacitated.
 
@@ -380,7 +380,7 @@ When adding a leave employee, the following details are entered:
 Note:
 If there is no suitable reason in the Leave Type field,you can write the reason in the Comment field.
 
-####3.5.2 Manage Leave
+#### 3.5.2 Manage Leave
 
 A form showing data about users who are temporarily disabled.
 
@@ -402,7 +402,7 @@ The list displays the following columns:
 - Comment - additional comments;
 - Actions - editing / deleting a table row.
 
-####3.5.3 Edit Leave
+#### 3.5.3 Edit Leave
 
 
 ***Main scenario:***
@@ -425,7 +425,7 @@ The list displays the following columns:
 <img src="/home/egor/Изображения/AddLeave.png"  width="600" height="600">
 Pic. 3.5.3 Edit Leave.
 
-###3.6 User Mode
+### 3.6 User Mode
 
 ***Main scenario:***
 
