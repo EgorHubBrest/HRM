@@ -11,7 +11,7 @@ development of system. It will also explain system constraints, interface and in
 ### 2.1 Product perspective
 This system will consist of two parts:databases and web applications. The database will be used for storing and processing information that will come from the web application. The web application will provide managers with all the necessary information on employee management, such as:work schedule, Department names, data about all employees and vacations.
 
-![](https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/AddLeave.png)
+![](https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/Diagram.png)
 Pic. 2.1 DFD diagram.
 
 ### 2.2 Product functions
@@ -41,7 +41,7 @@ This form is used to log in to your account.
 + The user selects the login form.
 + Enters the appropriate data.
 
-<img src="/home/egor/Изображения/reg1.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/reg1.png"  width="600" height="600">
 
 Pic. 3.1.1 Login form.
 
@@ -64,7 +64,7 @@ This form is used to register a new account.
 + If the user has not passed verification, it is not registered.
 + Otherwise, registration is performed.
 
-<img src="/home/egor/Изображения/reg2.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/reg2.png"  width="600" height="600">
 Pic. 3.1.2 Sign up form.
 
 #### 3.1.3 Password recovery
@@ -77,7 +77,7 @@ This operation allows you to restore a lost or forgotten password.
 + The program checks whether such an email exists.
 + A confirmation email.
 
-<img src="/home/egor/Изображения/forgetpas.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/forgetpas.png"  width="600" height="600">
 Pic. 3.1.3 Password recovery.
 
 After clicking the confirm button, an email will be sent to your email address with instructions on how to change your password.
@@ -92,7 +92,7 @@ In the course of this operation is the confirmation passcode.
 + If it matches, the user is redirected to a new tab,where they enter a new password.
 + If it doesn't fit, the user is prompted to resend the email.
 
-<img src="/home/egor/Изображения/lock2.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/lock2.png"  width="600" height="600">
 Pic. 3.1.4 Confirm Passcode.
 
 Using the new message button, you can resend the message with a passcode.
@@ -106,7 +106,7 @@ New password entry field.
 + Entering a new password.
 + Re-confirming it.
 
-<img src="/home/egor/Изображения/connewpass.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/connewpass.png"  width="600" height="600">
 Pic. 3.1.5 Confirm New Password.
 
 ### 3.2 Dashboard
@@ -118,7 +118,7 @@ The mode is designed to view information about the organization number of employ
 - The user goes to the main page.
 - The app displays information about the organization.
 
-<img src="/home/egor/Изображения/calen.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/calen.png"  width="600" height="600">
 Pic. 3.2 Dashboard.
 
 The page displays the following information:
@@ -137,7 +137,7 @@ The page displays the following information:
 - User selects item "Departments”;
 - Application displays a list of departments.
 
-<img src="/home/egor/Изображения/dpList.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/dpList.png"  width="600" height="600">
 Pic. 3.3.1 Department List.
 
 The list displays the following columns:
@@ -171,7 +171,7 @@ Number of records displayed:
 - User enters department data and presses “Cancel” button;
 - Data don’t save in data base, then list of departments records is displaying to user.
 
-<img src="/home/egor/Изображения/newdep.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/newdep.png"  width="600" height="600">
 Pic. 3.3.2 New Department.
 
 When adding a department, the following details are entered:
@@ -198,7 +198,7 @@ When adding a department, the following details are entered:
 - User enters department data and presses “Cancel” button;
 - Data don’t save in data base, then list of departments records is displaying to user.
 
-<img src="/home/egor/Изображения/newdep2.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/newdep2.png"  width="600" height="600">
 Pic. 3.3.3 Edit Department.
 
 When editing a department, the following details are entered:
@@ -222,7 +222,7 @@ Constraints for data validation:
 - If error occurs, then error message displays;
 - If department record is successfully deleted, then list of departments without deleted records is displaying.
 
-<img src="/home/egor/Изображения/delDepar.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/delDepar.png"  width="600" height="600">
 Pic. 3.3.4 Removing the Departament.
 
 
@@ -242,7 +242,7 @@ Pic. 3.3.4 Removing the Departament.
 - Application displays a list of departments.
 
 
-<img src="/home/egor/Изображения/EmployeeList.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/EmployeeList.png"  width="600" height="600">
 Pic. 3.4.1 Employee List.
 
 
@@ -283,7 +283,7 @@ Number of records displayed:
 - Data don’t save in data base, then list of Employers records is displaying to user.
 
 
-<img src="/home/egor/Изображения/addEmploy.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/addEmploy.png"  width="600" height="600">
 Pic. 3.4.2 New Employee.
 
 
@@ -308,7 +308,7 @@ When you add an employee, you enter information about them.
 - User enters Employee data and presses “Cancel” button;
 - Data don’t save in data base, then list of Employee records is displaying to user.
 
-<img src="/home/egor/Изображения/addEmploy.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/addEmploy.png"  width="600" height="600">
 Pic. 3.4.3 Edit Employee.
 
 
@@ -323,7 +323,7 @@ Pic. 3.4.3 Edit Employee.
 - If error occurs, then error message displays;
 - If department record is successfully deleted, then list of employee without deleted records is displaying.
 
-<img src="/home/egor/Изображения/delEmploye.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/delEmploye.png"  width="600" height="600">
 Pic. 3.4.4 Removing the Employee.
 
 Cancel operation scenario:
@@ -340,7 +340,7 @@ Cancel operation scenario:
 - User selects item "Schedules”;
 - Application displays a list of Schedules.
 
-<img src="/home/egor/Изображения/Sheduels.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/Sheduels.png"  width="600" height="600">
 Pic. 3.4.5 Schedules List.
 
 
@@ -365,7 +365,7 @@ On this tab, an employee is added who is temporarily incapacitated.
 - The Manager enters data why employees are temporarily incapacitated;
 - Then confirms them.
 
-<img src="/home/egor/Изображения/AddLeave.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/AddLeave.png"  width="600" height="600">
 Pic. 3.5.1 New Leave.
 
 
@@ -390,7 +390,7 @@ A form showing data about users who are temporarily disabled.
 - Select Manage Leave and views information about users
 
 
-<img src="/home/egor/Изображения/ML.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/ML.png"  width="600" height="600">
 Pic. 3.5.2 Manage Leave.
 
 The list displays the following columns:
@@ -422,7 +422,7 @@ The list displays the following columns:
 
 
 
-<img src="/home/egor/Изображения/AddLeave.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/AddLeave.png"  width="600" height="600">
 Pic. 3.5.3 Edit Leave.
 
 ### 3.6 User Mode
@@ -435,7 +435,7 @@ Pic. 3.5.3 Edit Leave.
 - The user confirms their time;
 - Chooses what his mood is.
 
-<img src="/home/egor/Изображения/usermi4ode.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/usermi4ode.png"  width="600" height="600">
 Pic. 3.6 User Mode
 
 Note:When the user confirms their time, it is entered in the schedules database.
