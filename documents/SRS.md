@@ -12,6 +12,7 @@ development of system. It will also explain system constraints, interface and in
 This system will consist of two parts:databases and web applications. The database will be used for storing and processing information that will come from the web application. The web application will provide managers with all the necessary information on employee management, such as:work schedule, Department names, data about all employees and vacations.
 
 ![](https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/Diagram.png)
+
 Pic. 2.1 DFD diagram.
 
 ### 2.2 Product functions
