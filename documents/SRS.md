@@ -9,7 +9,7 @@ development of system. It will also explain system constraints, interface and in
 ***
 ## 2.Overall Description
 ### 2.1 Product perspective
-This system will consist of two parts:databases and web applications. The database will be used for storing and processing information that will come from the web application. The web application will provide managers with all the necessary information on employee management, such as:work schedule, Department names, data about all employees and vacations.
+This system will consist of two parts:databases and web applications. The database will act as a data warehouse. The web application will provide managers with all the necessary information on employee management(processing and managing information), such as:work schedule, Department names, data about all employees and vacations.
 
 ![](https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/Diagram.png)
 
