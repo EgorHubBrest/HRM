@@ -93,7 +93,7 @@ In the course of this operation is the confirmation passcode.
 + If it matches, the user is redirected to a new tab,where they enter a new password.
 + If it doesn't fit, the user is prompted to resend the email.
 
-<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/lock2.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/confirmupdate.png"  width="600" height="600">
 Pic. 3.1.4 Confirm Passcode.
 
 Using the new message button, you can resend the message with a passcode.
