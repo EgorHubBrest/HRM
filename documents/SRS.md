@@ -51,6 +51,8 @@ If the data was entered incorrectly, the following window will appear:
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/loginError.png"  width="600" height="600">
 
 
+Pic. 3.1.1.1 Login form Eror.
+
 You can perform the following actions on the page:
 
 + The input of personal data.
@@ -71,11 +73,12 @@ This form is used to register a new account.
 + Otherwise, registration is performed.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/reg2.png"  width="600" height="600">
+Pic. 3.1.2 Sign up form.
 
 If the passwords do not match, the user is given the following window:
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/registration.png"  width="600" height="600">
+Pic. 3.1.2 Sign up form Error.
 
-Pic. 3.1.2 Sign up form.
 
 #### 3.1.3 Password recovery
 
@@ -186,7 +189,7 @@ Pic. 3.3.2 New Department.
 
 If such a department exists, the following window is displayed:
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/newDepartmentError2.png"  width="600" height="600">
-
+Pic. 3.3.2.1 New Department Error.
 
 When adding a department, the following details are entered:
 
@@ -240,8 +243,10 @@ Constraints for data validation:
 Pic. 3.3.4 Removing the Departament.
 
 When the manager accepts the deletion, a window pops up with a warning about what might happen:
+
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/departmentdelete.png"  width="600" height="600">
 
+Pic. 3.3.4.1 A warning about removing.
 
 ***Cancel operation scenario:***
 
@@ -280,6 +285,8 @@ Number of records displayed:
 - In the Employee list view mode, the user sets the number of entries to display;
 - The app will display the form with the required number of entries.
 
+A date filter is also used,and employees can be filtered by year of birth.
+
 #### 3.4.2 New Employee
 
 ***Main scenario:***
@@ -305,7 +312,7 @@ Pic. 3.4.2 New Employee.
 
 If the manager entered the wrong user name and surname the following window pops up:
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/addemployeeError.png"  width="600" height="600">
-
+Pic. 3.4.2.1 New Employee Error.
 
 When you add an employee, you enter information about them.
 
