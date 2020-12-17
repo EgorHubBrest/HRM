@@ -73,10 +73,13 @@ This form is used to register a new account.
 + Otherwise, registration is performed.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/reg2.png"  width="600" height="600">
+
 Pic. 3.1.2 Sign up form.
 
 If the passwords do not match, the user is given the following window:
+
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/registration.png"  width="600" height="600">
+
 Pic. 3.1.2 Sign up form Error.
 
 
@@ -91,6 +94,7 @@ This operation allows you to restore a lost or forgotten password.
 + A confirmation email.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/forgetpas.png"  width="600" height="600">
+
 Pic. 3.1.3 Password recovery.
 
 After clicking the confirm button, an email will be sent to your email address with instructions on how to change your password.
@@ -106,6 +110,7 @@ In the course of this operation is the confirmation passcode.
 + If it doesn't fit, the user is prompted to resend the email.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/confirmupdate.png"  width="600" height="600">
+
 Pic. 3.1.4 Confirm Passcode.
 
 Using the new message button, you can resend the message with a passcode.
@@ -120,6 +125,7 @@ New password entry field.
 + Re-confirming it.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/connewpass.png"  width="600" height="600">
+
 Pic. 3.1.5 Confirm New Password.
 
 ### 3.2 Dashboard
@@ -132,6 +138,7 @@ The mode is designed to view information about the organization number of employ
 - The app displays information about the organization.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/calen.png"  width="600" height="600">
+
 Pic. 3.2 Dashboard.
 
 The page displays the following information:
@@ -151,6 +158,7 @@ The page displays the following information:
 - Application displays a list of departments.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/dpList.png"  width="600" height="600">
+
 Pic. 3.3.1 Department List.
 
 The list displays the following columns:
@@ -185,10 +193,13 @@ Number of records displayed:
 - Data don’t save in data base, then list of departments records is displaying to user.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/newdep.png"  width="600" height="600">
+
 Pic. 3.3.2 New Department.
 
 If such a department exists, the following window is displayed:
+
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/newDepartmentError2.png"  width="600" height="600">
+
 Pic. 3.3.2.1 New Department Error.
 
 When adding a department, the following details are entered:
@@ -216,6 +227,7 @@ When adding a department, the following details are entered:
 - Data don’t save in data base, then list of departments records is displaying to user.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/newdep2.png"  width="600" height="600">
+
 Pic. 3.3.3 Edit Department.
 
 When editing a department, the following details are entered:
@@ -240,6 +252,7 @@ Constraints for data validation:
 - If department record is successfully deleted, then list of departments without deleted records is displaying.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/delDepar.png"  width="600" height="600">
+
 Pic. 3.3.4 Removing the Departament.
 
 When the manager accepts the deletion, a window pops up with a warning about what might happen:
@@ -265,6 +278,7 @@ Pic. 3.3.4.1 A warning about removing.
 
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/employeeList.png"  width="600" height="600">
+
 Pic. 3.4.1 Employee List.
 
 
@@ -308,10 +322,13 @@ A date filter is also used,and employees can be filtered by year of birth.
 
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/addemployee2.png"  width="600" height="600">
+
 Pic. 3.4.2 New Employee.
 
 If the manager entered the wrong user name and surname the following window pops up:
+
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/addemployeeError.png"  width="600" height="600">
+
 Pic. 3.4.2.1 New Employee Error.
 
 When you add an employee, you enter information about them.
@@ -351,6 +368,7 @@ Pic. 3.4.3 Edit Employee.
 - If department record is successfully deleted, then list of employee without deleted records is displaying.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/employeeListDelete.png"  width="600" height="600">
+
 Pic. 3.4.4 Removing the Employee.
 
 Cancel operation scenario:
@@ -368,6 +386,7 @@ Cancel operation scenario:
 - Application displays a list of Schedules.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/Sheduels.png"  width="600" height="600">
+
 Pic. 3.4.5 Schedules List.
 
 
@@ -393,6 +412,7 @@ On this tab, an employee is added who is temporarily incapacitated.
 - Then confirms them.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/AddLeave.png"  width="600" height="600">
+
 Pic. 3.5.1 New Leave.
 
 
@@ -418,6 +438,7 @@ A form showing data about users who are temporarily disabled.
 
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/ML.png"  width="600" height="600">
+
 Pic. 3.5.2 Manage Leave.
 
 The list displays the following columns:
@@ -450,6 +471,7 @@ The list displays the following columns:
 
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/AddLeave.png"  width="600" height="600">
+
 Pic. 3.5.3 Edit Leave.
 
 ### 3.6 User Mode
@@ -463,6 +485,7 @@ Pic. 3.5.3 Edit Leave.
 - Chooses what his mood is.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/usermi4ode.png"  width="600" height="600">
+
 Pic. 3.6 User Mode
 
 Note:When the user confirms their time, it is entered in the schedules database.
