@@ -185,7 +185,7 @@ Number of records displayed:
 Pic. 3.3.2 New Department.
 
 If such a department exists, the following window is displayed:
-
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/newDepartmentError2.png"  width="600" height="600">
 
 
 When adding a department, the following details are entered:
@@ -259,7 +259,7 @@ When the manager accepts the deletion, a window pops up with a warning about wha
 - Application displays a list of departments.
 
 
-<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/EmployeeList.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/employeeList.png"  width="600" height="600">
 Pic. 3.4.1 Employee List.
 
 
@@ -300,8 +300,11 @@ Number of records displayed:
 - Data don’t save in data base, then list of Employers records is displaying to user.
 
 
-<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/addEmploy.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/addemployee2.png"  width="600" height="600">
 Pic. 3.4.2 New Employee.
+
+If the manager entered the wrong user name and surname the following window pops up:
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/addemployeeError.png"  width="600" height="600">
 
 
 When you add an employee, you enter information about them.
@@ -340,7 +343,7 @@ Pic. 3.4.3 Edit Employee.
 - If error occurs, then error message displays;
 - If department record is successfully deleted, then list of employee without deleted records is displaying.
 
-<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/delEmploye.png"  width="600" height="600">
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/employeeListDelete.png"  width="600" height="600">
 Pic. 3.4.4 Removing the Employee.
 
 Cancel operation scenario:
