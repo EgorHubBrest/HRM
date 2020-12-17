@@ -11,7 +11,7 @@ development of system. It will also explain system constraints, interface and in
 ### 2.1 Product perspective
 This system will consist of two parts:databases and web applications. The database will act as a data warehouse. The web application will provide managers with all the necessary information on employee management(processing and managing information), such as:work schedule, Department names, data about all employees and vacations.
 
-![](https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/Diagram.png)
+![](https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/databasenormal.png)
 
 Pic. 2.1 DFD diagram.
 
