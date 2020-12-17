@@ -46,6 +46,11 @@ This form is used to log in to your account.
 
 Pic. 3.1.1 Login form.
 
+If the data was entered incorrectly, the following window will appear:
+
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/loginError.png"  width="600" height="600">
+
+
 You can perform the following actions on the page:
 
 + The input of personal data.
@@ -66,6 +71,10 @@ This form is used to register a new account.
 + Otherwise, registration is performed.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/reg2.png"  width="600" height="600">
+
+If the passwords do not match, the user is given the following window:
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/registration.png"  width="600" height="600">
+
 Pic. 3.1.2 Sign up form.
 
 #### 3.1.3 Password recovery
@@ -175,6 +184,10 @@ Number of records displayed:
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/newdep.png"  width="600" height="600">
 Pic. 3.3.2 New Department.
 
+If such a department exists, the following window is displayed:
+
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/newdep.png"  width="600" height="600">
+
 When adding a department, the following details are entered:
 
 - Department – department name;
@@ -225,6 +238,9 @@ Constraints for data validation:
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/delDepar.png"  width="600" height="600">
 Pic. 3.3.4 Removing the Departament.
+
+When the manager accepts the deletion, a window pops up with a warning about what might happen:
+<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/departmentdelete.png"  width="600" height="600">
 
 
 ***Cancel operation scenario:***
