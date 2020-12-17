@@ -186,7 +186,7 @@ Pic. 3.3.2 New Department.
 
 If such a department exists, the following window is displayed:
 
-<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/newdep.png"  width="600" height="600">
+
 
 When adding a department, the following details are entered:
 
