@@ -261,6 +261,8 @@ When the manager accepts the deletion, a window pops up with a warning about wha
 
 Pic. 3.3.4.1 A warning about removing.
 
+Note:If you delete a department, all employees will also be deleted. In the table, delete the department and also all the data adjacent to it.
+
 ***Cancel operation scenario:***
 
 - User is in display mode of department list and press “Delete” button;
@@ -325,7 +327,7 @@ A date filter is also used,and employees can be filtered by year of birth.
 
 Pic. 3.4.2 New Employee.
 
-If the manager entered the wrong user name and surname the following window pops up:
+If the user has entered user data while a user with such data in the required fields already exists.It displays the following error message.
 
 <img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/addemployeeError.png"  width="600" height="600">
 
@@ -401,80 +403,8 @@ The list displays the following columns:
 
 The table will be generated automatically from the employeelist table and from the user interface shown below.
 
-### 3.5 Leave
-#### 3.5.1 New Leave
 
-On this tab, an employee is added who is temporarily incapacitated.
-
-***Main scenario:***
-
-- The Manager enters data why employees are temporarily incapacitated;
-- Then confirms them.
-
-<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/AddLeave.png"  width="600" height="600">
-
-Pic. 3.5.1 New Leave.
-
-
-When adding a leave employee, the following details are entered:
-
-- Employee - fullname employee;
-- Leave Type - the reason why they is temporarily incapacitated;
-- From - start date;
-- To - end date;
-- Comment - additional comments.
-
-Note:
-If there is no suitable reason in the Leave Type field,you can write the reason in the Comment field.
-
-#### 3.5.2 Manage Leave
-
-A form showing data about users who are temporarily disabled.
-
-***Main scenario:***
-
-- The user selects the item leave
-- Select Manage Leave and views information about users
-
-
-<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/ML.png"  width="600" height="600">
-
-Pic. 3.5.2 Manage Leave.
-
-The list displays the following columns:
-
-- ID - employee ID;
-- Name - employee name;
-- Leave Type - the reason why they is temporarily incapacitated;
-- Puration - the duration of the absence;
-- Comment - additional comments;
-- Actions - editing / deleting a table row.
-
-#### 3.5.3 Edit Leave
-
-
-***Main scenario:***
-
-- User clicks the “Edit” button in the Leave list view mode;
-- Application displays form to enter Leave data;
-- User enters "Leave" data and presses “Save” button;
-- If any data is entered incorrectly, incorrect data messages are displayed;
-- If entered data is valid, then record is adding to database;
-- If error occurs, then error message is displaying;
-- If new Leave record is successfully added, then list of leave with added records is displaying.
-
-***Cancel operation scenario:***
-
-- User is in display mode of add leave  and press “Cancel” button;
-- The app closes editing mode.
-
-
-
-<img src="https://github.com/EgorHubBrest/HRM/blob/subordinate/documents/pictures/AddLeave.png"  width="600" height="600">
-
-Pic. 3.5.3 Edit Leave.
-
-### 3.6 User Mode
+### 3.5 User Mode
 
 ***Main scenario:***
 
