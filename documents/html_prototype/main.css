@@ -1,0 +1,228 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+input,
+textarea,
+button {
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+    font-weight: 400;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-weight: 400;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+a:hover,
+button:hover {
+    cursor: pointer;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container_sub {
+    width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #2C3337;
+}
+.header .header_logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.header .header_logo-text{
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+}
+
+.header .header_logo-text:hover{
+    color: red;
+}
+
+.header .header_right{
+    display: flex;
+    align-items: center;
+}
+.header .header_right_icon{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 10px;
+}
+
+.header .header_right_icon-link{
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+}
+.header .header_right_icon-link:hover {
+    color: red;
+}
+.main_content{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row;
+    height: 90vh;
+}
+
+.accord {
+    width: 500px;
+    padding: 20px 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.accord-item {
+    margin-bottom: 5px;
+
+
+}
+
+.accord-title {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+
+    color: #fff;
+    cursor: pointer;
+
+    transition: background .2s ease-out;
+}
+
+
+
+.accord-title:hover {
+    background-color: #b91125;
+}
+
+.accord-input {
+    width: 0;
+    height: 0;
+
+    -webkit-appearance: none;
+    appearance: none;
+
+    position: absolute;
+}
+
+.accord-input:checked ~ .accord-title {
+    background-color: #b91125;
+}
+
+.accord-input:checked ~ .accord-title:after {
+    border-style: solid;
+    border-width: 0 5px 8px 5px;
+    border-color: transparent transparent #fff transparent;
+}
+
+.accord-input:checked ~ .accord-text {
+    display: block;
+}
+
+.accord-text {
+    display: none;
+    padding: 10px 15px;
+
+    color: #fff;
+    font-size: 14px;
+}
+
+.ul-accord-text-li {
+
+    margin: 20px auto;
+
+}
+.ul-accord-text-li-link:hover{
+   color: #b91125;
+}
+
+
+.content{
+    background: rgba(240, 255, 255, 0.95);
+}
+
+
+.advantages{
+    margin:100px 0;
+}
+.advantages .advantages_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    grid-gap: 30px;
+}
+.advantages .advantages_card{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+
+}
+.advantages .advantages_card_top{
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+    border-bottom: 1px solid black;
+    width: 100%;
+
+}
+.advantages .advantages_card_bottom{
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+
+}
+.calendar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    border: 1px solid;
+}
